@@ -1,0 +1,27 @@
+
+/***********NAVIGATION MENU**************/
+.nav-menu {
+    max-width: 1150px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    position: -webkit-sticky;
+    position: sticky;
+    margin: auto;
+  }
+  .container-menu {
+    width: 100%;
+    background-color:#242526;
+  }
+  .menu li {
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .menu a{
+    color: #7a8085;
+    text-decoration: none;
+  }

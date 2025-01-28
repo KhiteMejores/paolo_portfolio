@@ -1,0 +1,202 @@
+.main-container {
+  width: 100%;
+  background-color: #18191a;
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+}
+.container-post {
+  width: 1100px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin: 5px 20px;
+}
+.profile-left {
+  flex: 1.5;
+  margin: 0px 5px;
+
+  display: flex;
+  justify-content: center;
+  top: 0;
+  font-size: 20px;
+  /* overflow: hidden; */
+  /* height: clamp(400px, 40vw, 600px); */
+}
+
+.intro {
+  background-color: #242526;
+  padding: 20px;
+  width: 100%;
+  height: clamp(400px, 30vw, 600px);
+  border-radius: 0.6666666667rem;
+}
+
+.intro h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 0px
+}
+
+.intro p {
+  font-family: Arial, Helvetica, sans-serif;  
+  font-size: clamp(14px, 10vw, 16px);
+  font-weight: 600;
+  line-height: 25px;
+  color: #7a8085;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.post-right {
+  flex: 2;
+  margin: 0px 5px;
+  border-radius: 7px;
+  justify-content: center;
+}
+
+.edit-bio-btn {
+  width: 90%;
+  text-align: center;
+  background-color: #3a3b3c;
+  border: none;
+  padding: 15px;
+  color: white;
+  margin: auto;
+  border-radius: 10px;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 900px) {
+  .container-post {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: 5px 20px;
+    gap: 10px;
+  }
+  .intro p {
+    font-size: clamp(14px, 5vw, 14px);
+    line-height: 20px;
+  }
+}
+
+.information {
+  color: #7a8085;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.post-filter {
+  width: 100%;
+  background-color: #242526;
+  display: flex;
+  padding: 13px 25px;
+  justify-content: space-between;
+  border-radius: 0.6666666667rem;
+  align-items: center;
+}
+.post-filter p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.post-filter button {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 7px 15px;
+  font-size: 14px;
+  background-color: #2f3031;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  border-radius: 5px;
+  border: none;
+}
+
+.filter-icon {
+  margin-right: 10px;
+}
+
+.profile-photo {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.proile-name {
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.proile-name p:nth-child(2) {
+  color: #7a8085;
+}
+
+.post-section {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #242526;
+  border-radius: 0.6666666667rem;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.user-profile {
+  display: flex;
+  gap: 15px;
+}
+.post-text {
+  font-size: 15px;
+  color: #a6a6a6;
+  line-height: 25px;
+}
+.post-project {
+  margin: auto;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.137);
+}
+.post-img {
+  width: clamp(200px, 90vw, 100%);
+  height: clamp(200px, 120vw, 100%);
+  object-fit: contain;
+  object-position: center;
+}
+
+.heart-icon {
+  color: white;
+  font-size: clamp(20px, 2vw, 25px);
+}
+
+.likes-section {
+ 
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  color: white;
+
+}
+
+.likes-shares {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.react-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  margin: 10px;
+}

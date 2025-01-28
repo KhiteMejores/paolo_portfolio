@@ -1,0 +1,29 @@
+
+
+/***********PROFILE SECTION**************/
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 20px;
+    border: 4px solid #242526;
+    object-fit: cover;
+    position: relative;
+    top: -70px;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction:  row;
+    height: 120px;
+    width: 98%;
+    margin: auto;
+  }
+  .profile-name {
+    padding: 20px;
+    font-size: 23px;
+    font-weight: bold;
+    padding-top: 30px;
+    color: white;
+  }
