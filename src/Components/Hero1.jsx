@@ -1,12 +1,12 @@
 import React from 'react'
 import coverPhoto from "../assets/images/pexels-photo-247791.webp"
 import profilePhoto from '../assets/images/profile2.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import { GrFacebookOption } from "react-icons/gr";
 import { FaInstagram } from "react-icons/fa6";
 import { FaTiktok } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-// import Navmenu from './Navmenu'
+import Navmenu from './Navmenu'
 export default function Hero1() {
   return (
     <div className="container-hero">
