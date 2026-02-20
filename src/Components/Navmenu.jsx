@@ -10,10 +10,10 @@ export default function Navmenu() {
               <a href="/">Posts</a>
             </li>
             <li>
-              <a href="/About">About</a>
+              <a href="/About">About Me</a>
             </li>
             <li>
-              <a href="/Work&Me">Work with me</a>
+              <a href="/ContactMe">Work with me</a>
             </li>
           </ul>
         </div>

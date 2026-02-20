@@ -1,0 +1,29 @@
+.container-about {
+    width: 100%;
+   
+    margin-top: 30px;
+  }
+
+.main_about {
+    width: clamp(490px, 95%, 1050px);
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+     background-color:#242526;
+     color: #a6a6a6;
+     border-radius: 10px;
+
+  }
+  .ul_adjust {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }

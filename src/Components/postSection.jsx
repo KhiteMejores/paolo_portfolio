@@ -1,5 +1,5 @@
 import React from 'react'
-import profilePhoto from "../assets/images/profile2.png";
+import profilePhoto from "../assets/images/profilepic.png";
 import tanayPhoto from "../assets/images/tarahane.png";
 import { IoHeartSharp } from "react-icons/io5";
 import { AiFillLike } from "react-icons/ai";
@@ -13,15 +13,16 @@ export default function PostSection() {
       <div className="user-profile">
         <img className="profile-photo" src={profilePhoto} alt="" />
         <div className="proile-name">
-          <p>Mejores.ph</p>
+          <p>paolo.ph</p>
           <p>Posted 1hr ago</p>
         </div>
       </div>
       <div className="post-text">
-      The goal of this system is to collect, analyze, and define the features and needs of the web-based hotel and resort management system. 
-      The primary focus, along with the rationale behind their existence, is on the abilities needed by the owner and the intended users. 
-      This software is designed to make reservation management easier, more accurate, and more efficient. It will greatly benefit the owner and the clients who will use the system.
+        <p>🏨 Capstone Project: Hotel Reservation System </p> <br />
+       <p>Developed using PHP, JavaScript, and MySQL, featuring separate user and admin panels, real-time booking, admin dashboard, and secure database integration.</p>
+   <p>This project enhanced my skills in web development, database management, and building real-world systems. </p>
    <br />
+  <p>#CapstoneProject #WebDevelopment #PHP #MySQL #Portfolio</p>
       <a href="https://tarahane.free.nf/?i=1">https://tarahane.free.nf/?i=1</a>
       </div>
       <div className="post-project">

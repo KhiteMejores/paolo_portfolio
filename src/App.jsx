@@ -3,9 +3,11 @@ import "./App.css";
 import "./Component css/navigation.css";
 import "./Component css/profile.css";
 import "./Component css/post.css";
+import "./Component css/about_me.css";
+import "./Component css/contact_me.css";
 import Home from "./Home.jsx";
 import About from "./Components/About.jsx";
-import WorkMe from "./Components/Work&Me.jsx";
+import ContanMe from "./Components/ContactMe.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
@@ -14,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="About" element={<About />} />
-          <Route path="Work&Me" element={<WorkMe />} />
+          <Route path="ContactMe" element={<ContanMe />} />
         </Routes>
       </BrowserRouter>
     </>
