@@ -30,7 +30,7 @@ export default function Post() {
                     <IoInformationCircleOutline /> Digital Creator | Web Developer
                   </div>
                   <div>
-                    <BsTelephoneFill /> +63 960 451 2203
+                    <BsTelephoneFill /> +63 968 600 2545
                   </div>
                   <div>
                     <TfiEmail /> paolomejores4@gmail.com
