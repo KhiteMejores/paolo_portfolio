@@ -1,0 +1,9 @@
+.post-project-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.post-img-network {
+    width: 100%;
+}
+

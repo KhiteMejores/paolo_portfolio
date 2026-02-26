@@ -5,6 +5,7 @@ import "./Component css/profile.css";
 import "./Component css/post.css";
 import "./Component css/about_me.css";
 import "./Component css/contact_me.css";
+import "./Component css/network.css"
 import Home from "./Home.jsx";
 import About from "./Components/About.jsx";
 import ContanMe from "./Components/ContactMe.jsx";

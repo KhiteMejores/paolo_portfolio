@@ -11,8 +11,8 @@ import PostSection from "./postSection";
 import friend1 from "../assets/images/MarkZuckerberg.jpg";
 import friend2 from "../assets/images/elon-musk-ap-5.webp";
 import TuneifyPost from "./tuneify";
-
-
+import Network from "./network";
+import StayOra from "./stayora";
 export default function Post() {
   return (
     <div className="main-container">
@@ -30,7 +30,7 @@ export default function Post() {
                     <IoInformationCircleOutline /> Digital Creator | Web Developer
                   </div>
                   <div>
-                    <BsTelephoneFill /> +63 960 451 2203
+                    <BsTelephoneFill /> +63 968 600 2545
                   </div>
                   <div>
                     <TfiEmail /> paolomejores4@gmail.com
@@ -74,10 +74,12 @@ export default function Post() {
               <div> Filters</div>
             </button>
           </div>
-       
+         
+        
          <PostSection/>
+         <StayOra/>
          <TuneifyPost/>
-      
+         <Network/>
        
         </div>
       </div>
